@@ -1,0 +1,17 @@
+Mon Nov  2 11:25:34 PST 2026
+
+Canary email: canary-f253b114@example.com  (typed, never submitted)
+
+❌ LEAK: the email left the page before you hit submit:
+
+  → ct.pinterest.com  as SHA-256 hash  (GET)
+     https://ct.pinterest.com/user/?pd=%7B%22aem%22%3A%22da976125b7767b12d4a29185f0623dafa80e538c45de7bb0930492b1540bae9e%22%
+
+Canary email: canary-bd69078a@example.com  (typed, never submitted)
+
+✅ No leak seen. The email didn't leave the page before submit.
+
+Canary email: canary-d7b46edf@example.com  (typed, never submitted)
+
+✅ No leak seen. The email didn't leave the page before submit.
+No email field found on this page. Try a signup/registration/checkout page.

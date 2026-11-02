@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.env
+last_scan.json
+screenshot.png
+.DS_Store
