@@ -48,6 +48,19 @@ if st.button("Run Canary test", type="primary"):
                 if "hash" in l["disguise"]:
                     st.caption("A hash looks like gibberish, but the same email always makes the same hash, "
                                "so the receiver can still match it to you.")
+
+        st.subheader("What you can do")
+        st.markdown(
+            "**If you're an organizer choosing this page for your attendees:**\n"
+            "- **Consider another platform.** In our tests, Luma, Meetup, Devfolio and Universe "
+            "did not leak the email before submit.\n"
+            "- **Send this proof to the platform.** The request above shows exactly what was sent and to whom. "
+            "You usually can't remove their trackers yourself; only they can.\n"
+            "- **Tell your attendees** if you keep using it, so they can choose what email to use.\n\n"
+            "**If you're signing up yourself:**\n"
+            "- Use an email alias (e.g. iCloud Hide My Email, SimpleLogin) so the real address never reaches them.\n"
+            "- A tracker blocker such as uBlock Origin blocks many of these requests."
+        )
     else:
         st.success("### ✅ No leak seen\nYour email didn't leave the page before submit.")
 
