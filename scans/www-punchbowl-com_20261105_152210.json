@@ -1,0 +1,109 @@
+{
+  "url": "https://www.punchbowl.com/",
+  "site": "www.punchbowl.com",
+  "canary": "canary-bd456eee@example.com",
+  "identity": {
+    "email": "canary-bd456eee@example.com",
+    "name": "Robin CanaryPrghjsss",
+    "phone": "4155551345"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 15:22:10",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Sign In\" to find the form",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "fonts.googleapis.com": 3,
+    "global.ketchcdn.com": 10,
+    "ads.adthrive.com": 14,
+    "fonts.gstatic.com": 1,
+    "cdn.ketchjs.com": 2,
+    "connect.facebook.net": 9,
+    "platform.twitter.com": 2,
+    "match.adsrvr.org": 2,
+    "bd.raptivecdn.com": 2,
+    "www.facebook.com": 1,
+    "logger.adthrive.com": 2,
+    "syndication.twitter.com": 1,
+    "www.googletagmanager.com": 1,
+    "s.pinimg.com": 4,
+    "sb.scorecardresearch.com": 5,
+    "secure.quantserve.com": 2,
+    "www.google.com": 8,
+    "ad.doubleclick.net": 1,
+    "wt.alcmpn.com": 2,
+    "static.traversedlp.com": 2,
+    "js.adara.com": 2,
+    "mpnv2-prod-c.alcmpn.com": 2,
+    "p.alcmpn.com": 2,
+    "api.traversedlp.com": 2,
+    "jsres.adara.com": 3,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1,
+    "rules.quantcount.com": 2,
+    "pixel.quantserve.com": 5,
+    "idsync.rlcdn.com": 1,
+    "dsum-sec.casalemedia.com": 2,
+    "image2.pubmatic.com": 1,
+    "pixel.rubiconproject.com": 1,
+    "cm.g.doubleclick.net": 3,
+    "sdk.adara.com": 6,
+    "googleads.g.doubleclick.net": 2,
+    "tag.yieldoptimizer.com": 5,
+    "ct.pinterest.com": 10,
+    "appleid.cdn-apple.com": 1,
+    "accounts.google.com": 1,
+    "us-u.openx.net": 2,
+    "ib.adnxs.com": 2,
+    "eb2.3lift.com": 1,
+    "x.bidswitch.net": 2,
+    "rtb-csync.smartadserver.com": 1,
+    "inv-nets.admixer.net": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.punchbowl.com/privacy-policy",
+  "screenshot": "scans/www-punchbowl-com_20261105_152210.png",
+  "error": null,
+  "saved_as": "scans/www-punchbowl-com_20261105_152210.json",
+  "policy": {
+    "statements": [
+      {
+        "quote": "We may work with third-party advertising partners who use cookies and similar technologies to collect information about your activities on our Services and other websites, applications, or online services over time.",
+        "verdict": "discloses",
+        "explanation": "The policy openly says ad partners track your activity on the site, which matches the many ad servers we saw contacted."
+      },
+      {
+        "quote": "Some advertising partners may use technologies on our Services or in email communications you have opted to receive from us to recognize your device or browser across different channels and platforms for advertising, analytics, attribution, and reporting purposes.",
+        "verdict": "discloses",
+        "explanation": "The site admits ad partners can recognize your device across platforms, which fits the ID-syncing ad domains we observed."
+      },
+      {
+        "quote": "This Site is affiliated with CMI Marketing, Inc., d/b/a CafeMedia (\u201cCafeMedia\u201d) for the purposes of placing advertising on the Site, and CafeMedia will collect and use certain data for advertising purposes.",
+        "verdict": "discloses",
+        "explanation": "CafeMedia (now Raptive/AdThrive) is named as the ad network, matching the adthrive and raptivecdn servers we saw."
+      },
+      {
+        "quote": "We may use technologies provided by social media platforms to measure the effectiveness of our marketing campaigns, understand engagement with our Services, and support advertising and marketing activities.",
+        "verdict": "discloses",
+        "explanation": "This covers the Facebook, Pinterest and Twitter trackers that loaded on the page."
+      },
+      {
+        "quote": "In those cases, your unique personally identifiable information (e-mail, name, address, zip code) is not transferred to the third party.",
+        "verdict": "unclear",
+        "explanation": "This promise is about partner offers sent by Punchbowl, so it's unclear whether it covers ad trackers on the website; either way, no email leak was observed."
+      }
+    ],
+    "rejected": [],
+    "summary": "The policy openly discloses extensive third-party advertising, analytics, and social media tracking, which matches the many outside servers the page contacted. No email leak was observed in our test, so we found nothing that contradicts the policy's statements.",
+    "policy_url": "https://www.punchbowl.com/privacy-policy"
+  },
+  "policy_url": "https://www.punchbowl.com/privacy-policy"
+}

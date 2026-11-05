@@ -13,3 +13,6 @@ config.toml
 .agents/
 .claude/
 config.toml
+.agents/
+.claude/
+config.toml

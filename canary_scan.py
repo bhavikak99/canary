@@ -209,6 +209,10 @@ def run_scan(url, save_dir="scans"):
             page.on("request", on_request)
             page.goto(url, wait_until="load", timeout=45000)
             page.wait_for_timeout(3000)
+            try:  # let slow trackers finish loading, so they're listening before we type
+                page.wait_for_load_state("networkidle", timeout=10000)
+            except Exception:
+                pass
             result["steps"].append("Opened the page")
             progress(f"open|Opened {site}: it already contacted {len(result['third_parties'])} outside servers")
 
@@ -246,6 +250,7 @@ def run_scan(url, save_dir="scans"):
             result["found_email_box"] = True
 
             # 3. Type the fake identity like a human. Click away after each box. NEVER submit.
+            page.wait_for_timeout(2000)  # give scripts a moment to attach to the form we just found
             state["typing"], state["at"] = True, datetime.now()
             to_type = []
             for kind, value, label in [("first", ident["first"], "name"), ("last", ident["last"], "name"),
@@ -268,11 +273,11 @@ def run_scan(url, save_dir="scans"):
                     continue
             result["steps"].append(f"Typed a fake {', '.join(result['fields_typed'])} and clicked away. Never pressed submit")
             progress("watch|Done typing. We will never press submit. Now just watching what the page sends")
-            for sec in range(8):
+            for sec in range(12):
                 page.wait_for_timeout(1000)
-                if sec in (3, 7):
+                if sec in (3, 7, 11):
                     progress(f"watch|Still watching... {len(result['third_parties'])} outside servers contacted so far")
-            result["steps"].append("Watched the traffic for 8 seconds")
+            result["steps"].append("Watched the traffic for 12 seconds")
 
             shot = os.path.join(save_dir, slug + ".png")
             page.screenshot(path=shot)
