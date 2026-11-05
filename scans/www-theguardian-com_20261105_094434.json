@@ -1,0 +1,60 @@
+{
+  "url": "https://www.theguardian.com/email-newsletters",
+  "site": "www.theguardian.com",
+  "canary": "canary-d767d92a@example.com",
+  "identity": {
+    "email": "canary-d767d92a@example.com",
+    "name": "Robin CanaryRkjkrmdn",
+    "phone": "4155553767"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:44:34",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Sign in\" to find the form",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "assets.guim.co.uk": 57,
+    "i.guim.co.uk": 44,
+    "contributions.guardianapis.com": 1,
+    "www3.doubleclick.net": 1,
+    "cdn.privacy-mgmt.com": 3,
+    "cdn.confiant-integrations.net": 2,
+    "sb.scorecardresearch.com": 4,
+    "c.amazon-adsystem.com": 2,
+    "securepubads.g.doubleclick.net": 3,
+    "www.googleadservices.com": 1,
+    "cdn.permutive.app": 1,
+    "cdn.adsafeprotected.com": 1,
+    "cdn.brandmetrics.com": 2,
+    "www.google.com": 13,
+    "marketingplatform.google.com": 1,
+    "googleads.g.doubleclick.net": 1,
+    "www.gstatic.com": 20,
+    "collector.brandmetrics.com": 1,
+    "d6691a17-6fdb-4d26-85d6-b3dd27f55f08.prmutv.co": 1,
+    "ib.adnxs.com": 1,
+    "cdn.id5-sync.com": 1,
+    "api.permutive.com": 12,
+    "secure-signals.permutive.app": 5,
+    "cdn.permutive.com": 1,
+    "api.id5-sync.com": 1,
+    "fonts.gstatic.com": 4,
+    "pubads.g.doubleclick.net": 1,
+    "id5-sync.com": 3,
+    "lbs.eu-1-id5-sync.com": 1,
+    "lb.eu-1-id5-sync.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.theguardian.com/help/privacy-policy",
+  "screenshot": "scans/www-theguardian-com_20261105_094434.png",
+  "error": null,
+  "saved_as": "scans/www-theguardian-com_20261105_094434.json"
+}

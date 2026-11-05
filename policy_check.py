@@ -59,9 +59,14 @@ pixels or "enhanced matching", and anything about when data is collected.
 
 Rules:
 - "quote" must be copied EXACTLY, word for word, from the policy. No paraphrasing. One or two sentences max.
-- verdict "contradicts" = the observed behavior goes against this statement.
+- Only pick statements that apply to THIS situation: information people type on the website, or tracking and
+  advertising technologies on the website. Skip statements about other situations (special partner offers,
+  promotions, sweepstakes, job applicants, emails you opted into, etc.), even if they mention email.
+- verdict "contradicts" ONLY if the statement clearly applies to this exact situation AND says this would not happen.
+  If you are not sure it applies, do not use "contradicts". Use "unclear" or leave it out.
   "discloses" = the policy openly admits this kind of sharing.
-  "unclear" = related but too vague to judge.
+  "unclear" = related but too vague to tell whether it covers what we observed.
+- Be fair to the company. It is fine to return only 2-4 statements.
 - explanation: one short, plain-English sentence a non-lawyer understands.
 - summary: 2 sentences max. Be fair; don't accuse the site of breaking the law.
 - If the policy says nothing relevant, return an empty list and say so in the summary.
