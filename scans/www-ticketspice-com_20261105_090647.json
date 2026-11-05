@@ -1,0 +1,56 @@
+{
+  "url": "https://www.ticketspice.com/",
+  "site": "www.ticketspice.com",
+  "canary": "canary-adf026f2@example.com",
+  "identity": {
+    "email": "canary-adf026f2@example.com",
+    "name": "Robin CanaryNrtbdjtd",
+    "phone": "4155550350"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:06:47",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "cdn.prod.website-files.com": 76,
+    "cdn.jsdelivr.net": 17,
+    "code.jquery.com": 2,
+    "news.google.com": 2,
+    "d3e54v103j8qbb.cloudfront.net": 1,
+    "wbx-public-sites.s3.us-west-2.amazonaws.com": 2,
+    "cdnjs.cloudflare.com": 8,
+    "js.hs-scripts.com": 1,
+    "www.googletagmanager.com": 4,
+    "static.hotjar.com": 1,
+    "dev.visualwebsiteoptimizer.com": 2,
+    "app.vidzflow.com": 36,
+    "cdn.embedly.com": 5,
+    "r2.vidzflow.com": 20,
+    "vjs.zencdn.net": 12,
+    "cdn.embed.ly": 6,
+    "static.cloudflareinsights.com": 6,
+    "www.gstatic.com": 9,
+    "cp.webconnex.com": 1,
+    "js.hs-analytics.net": 1,
+    "js.hs-banner.com": 1,
+    "js.hsadspixel.net": 1,
+    "challenges.cloudflare.com": 8,
+    "api.hubapi.com": 1,
+    "play.google.com": 3,
+    "analytics2.vidzflow.com": 4,
+    "track.hubspot.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.ticketspice.com/privacy-policy",
+  "screenshot": "scans/www-ticketspice-com_20261105_090647.png",
+  "error": null,
+  "saved_as": "scans/www-ticketspice-com_20261105_090647.json"
+}

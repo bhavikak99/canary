@@ -1,0 +1,27 @@
+{
+  "url": "https://www.patagonia.com/home/",
+  "site": "www.patagonia.com",
+  "canary": "canary-56088ac6@example.com",
+  "identity": {
+    "email": "canary-56088ac6@example.com",
+    "name": "Robin CanaryHjbllnqj",
+    "phone": "4155555608"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:13:48",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "fast.fonts.net": 4
+  },
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-patagonia-com_20261105_091348.json"
+}

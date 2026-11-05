@@ -1,0 +1,28 @@
+{
+  "url": "https://www.constantcontact.com/",
+  "site": "www.constantcontact.com",
+  "canary": "canary-577604e4@example.com",
+  "identity": {
+    "email": "canary-577604e4@example.com",
+    "name": "Robin CanaryHkkjbgsg",
+    "phone": "4155555776"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:09:50",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "challenges.cloudflare.com": 6,
+    "brunhild.challenges.cloudflare.com": 1
+  },
+  "found_email_box": false,
+  "policy_url_found": "https://www.cloudflare.com/privacypolicy/",
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-constantcontact-com_20261105_090950.json"
+}

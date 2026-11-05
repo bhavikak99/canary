@@ -1,33 +1,99 @@
-# One URL per line. Pages that show an email box right away work best.
-# Lines starting with # are ignored.
+# One URL per line. Lines starting with # are ignored.
+# Pages that show a sign-up / sign-in / newsletter box work best.
 
-# --- Event & ticketing platforms ---
+# --- Event platforms & ticketing ---
 https://www.eventbrite.com/signin/
 https://lu.ma/signin
 https://secure.meetup.com/login/
-https://seatgeek.com/login
-https://www.universe.com/sign-in
-https://www.ticketleap.com/
-https://www.accelevents.com/
-https://www.bizzabo.com/
 https://www.cvent.com/
+https://www.universe.com/sign-in
+https://seatgeek.com/login
+https://www.stubhub.com/login
+https://www.ticketmaster.com/
+https://www.axs.com/
+https://dice.fm/
+https://www.tickettailor.com/
+https://www.ticketleap.com/
+https://splashthat.com/
+https://www.bizzabo.com/
+https://www.airmeet.com/
+https://www.hubilo.com/
+https://www.swapcard.com/
 https://whova.com/
+https://www.accelevents.com/
+https://www.eventzilla.net/
+https://www.ticketspice.com/
+https://www.humanitix.com/
+https://www.addevent.com/
+https://partiful.com/
+https://www.evite.com/
+https://www.paperlesspost.com/
+https://www.punchbowl.com/
+https://sched.com/
+https://www.on24.com/
+https://www.goldcast.io/
 
-# --- Hackathon / student / dev platforms ---
+# --- Form & sign-up tools organizers use ---
+https://www.typeform.com/signup/
+https://www.jotform.com/signup/
+https://tally.so/
+https://www.surveymonkey.com/user/sign-up/
+https://www.formstack.com/
+https://www.cognitoforms.com/
+https://calendly.com/signup
+https://www.signupgenius.com/register
+https://mailchimp.com/
+https://www.constantcontact.com/
+https://www.hubspot.com/
+
+# --- Hackathons, students & developers ---
 https://my.mlh.io/users/sign_up
 https://devfolio.co/signup
+https://devpost.com/users/register
 https://www.hackerearth.com/signup/
 https://www.kaggle.com/account/login
+https://dorahacks.io/
+https://joinhandshake.com/
+https://www.coursera.org/
+https://www.edx.org/
+https://www.codecademy.com/register
+https://leetcode.com/accounts/signup/
+https://github.com/signup
+https://replit.com/signup
+https://www.notion.so/signup
+https://www.figma.com/signup
+https://www.canva.com/
+
+# --- Newsletters & media ---
 https://substack.com/sign-in
-https://www.typeform.com/signup/
+https://www.theverge.com/
+https://techcrunch.com/
+https://www.morningbrew.com/
+https://www.theskimm.com/
+https://www.axios.com/newsletters
+https://www.vox.com/newsletters
+https://www.wired.com/newsletter
 
 # --- Consumer brands (newsletter boxes, very marketing-heavy) ---
-https://www.patagonia.com/home/
-https://www.allbirds.com/
 https://www.glossier.com/
+https://bombas.com/
+https://www.allbirds.com/
 https://www.warbyparker.com/
 https://www.everlane.com/
 https://www.gymshark.com/
-https://bombas.com/
 https://www.fashionnova.com/
 https://skims.com/
+https://www.patagonia.com/home/
+https://www.sephora.com/
+https://www.ulta.com/
+https://www.target.com/
+https://www.nike.com/
+https://www.adidas.com/us
+https://shop.lululemon.com/
+https://www.aritzia.com/us/en
+https://www.urbanoutfitters.com/
+https://casper.com/
+https://www.awaytravel.com/
+https://www.chewy.com/
+https://www.opentable.com/
+https://www.hellofresh.com/

@@ -1,0 +1,32 @@
+{
+  "url": "https://tally.so/",
+  "site": "tally.so",
+  "canary": "canary-69813e30@example.com",
+  "identity": {
+    "email": "canary-69813e30@example.com",
+    "name": "Robin CanaryJmlcfsfb",
+    "phone": "4155556981"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:08:30",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Log in\" to find the form",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "o407628.ingest.us.sentry.io": 1,
+    "plausible.io": 2
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://tally.so/help/terms-and-privacy",
+  "screenshot": "scans/tally-so_20261105_090830.png",
+  "error": null,
+  "saved_as": "scans/tally-so_20261105_090830.json"
+}

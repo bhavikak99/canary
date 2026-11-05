@@ -1,0 +1,50 @@
+{
+  "url": "https://www.notion.so/signup",
+  "site": "www.notion.so",
+  "canary": "canary-b03b6094@example.com",
+  "identity": {
+    "email": "canary-b03b6094@example.com",
+    "name": "Robin CanaryPbfpjbmg",
+    "phone": "4155551031"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:11:10",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "app.notion.com": 355,
+    "http-inputs-notion.splunkcloud.com": 3,
+    "exp.notion.com": 3,
+    "www.googletagmanager.com": 6,
+    "connect.facebook.net": 2,
+    "cdn.cr-relay.com": 1,
+    "www.google.com": 30,
+    "snap.licdn.com": 1,
+    "static.ads-twitter.com": 1,
+    "bat.bing.com": 1,
+    "cdn.metadata.io": 3,
+    "px.ads.linkedin.com": 3,
+    "googleads.g.doubleclick.net": 11,
+    "t.co": 2,
+    "analytics.twitter.com": 2,
+    "api.ipify.org": 1,
+    "www.linkedin.com": 1,
+    "accounts.google.com": 5,
+    "o324374.ingest.sentry.io": 1,
+    "google.com": 1,
+    "www.googleadservices.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.notion.com/trust/privacy-policy",
+  "screenshot": "scans/www-notion-so_20261105_091110.png",
+  "error": null,
+  "saved_as": "scans/www-notion-so_20261105_091110.json"
+}

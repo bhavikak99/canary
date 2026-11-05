@@ -1,0 +1,35 @@
+{
+  "url": "https://www.ticketleap.com/",
+  "site": "www.ticketleap.com",
+  "canary": "canary-ab7137b6@example.com",
+  "time": "2026-11-04 18:14:20",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Get Started\" to find the form",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "leaks": [],
+  "third_parties": {
+    "fonts.googleapis.com": 3,
+    "s3.amazonaws.com": 2,
+    "www.googletagmanager.com": 3,
+    "edge.marker.io": 3,
+    "ticketleap2023.wpenginepowered.com": 1,
+    "fonts.gstatic.com": 2,
+    "script.crazyegg.com": 1,
+    "api.marker.io": 1,
+    "cdn.cookielaw.org": 10,
+    "geolocation.onetrust.com": 1,
+    "bzrcdn.openai.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1,
+    "sc-fonts.s3.us-east-1.amazonaws.com": 1,
+    "sc-prod-static-content.s3.amazonaws.com": 2,
+    "challenges.cloudflare.com": 1
+  },
+  "found_email_box": false,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-ticketleap-com_20261104_181420.json"
+}

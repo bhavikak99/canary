@@ -1,0 +1,28 @@
+{
+  "url": "https://www.chewy.com/",
+  "site": "www.chewy.com",
+  "canary": "canary-17afb001@example.com",
+  "identity": {
+    "email": "canary-17afb001@example.com",
+    "name": "Robin CanaryCkntpbbc",
+    "phone": "4155551705"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:14:49",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "js-cdn.dynatrace.com": 2,
+    "bf20861wzf.bf.dynatrace.com": 2
+  },
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-chewy-com_20261105_091449.json"
+}

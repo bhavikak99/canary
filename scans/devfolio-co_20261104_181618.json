@@ -1,0 +1,31 @@
+{
+  "url": "https://devfolio.co/signup",
+  "site": "devfolio.co",
+  "canary": "canary-054c4ea5@example.com",
+  "time": "2026-11-04 18:16:18",
+  "steps": [
+    "Opened the page",
+    "Typed the fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "leaks": [],
+  "third_parties": {
+    "maps.googleapis.com": 2,
+    "fonts.googleapis.com": 1,
+    "devfolio-prod.s3.ap-south-1.amazonaws.com": 4,
+    "thoughtfullab.com": 1,
+    "labs.leaningtech.com": 1,
+    "static.cloudflareinsights.com": 1,
+    "fonts.gstatic.com": 5,
+    "www.thoughtfullab.com": 1,
+    "us-assets.i.posthog.com": 1,
+    "us.i.posthog.com": 1,
+    "www.google.com": 6,
+    "www.gstatic.com": 10
+  },
+  "found_email_box": true,
+  "screenshot": "scans/devfolio-co_20261104_181618.png",
+  "error": null,
+  "saved_as": "scans/devfolio-co_20261104_181618.json"
+}

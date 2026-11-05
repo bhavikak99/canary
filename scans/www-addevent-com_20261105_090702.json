@@ -1,0 +1,46 @@
+{
+  "url": "https://www.addevent.com/",
+  "site": "www.addevent.com",
+  "canary": "canary-abff4430@example.com",
+  "identity": {
+    "email": "canary-abff4430@example.com",
+    "name": "Robin CanaryNpttggfb",
+    "phone": "4155550155"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:07:02",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "cdn.firstpromoter.com": 1,
+    "fonts.gstatic.com": 2,
+    "fonts.googleapis.com": 1,
+    "api2.amplitude.com": 1,
+    "www.googletagmanager.com": 2,
+    "widget.intercom.io": 1,
+    "js-eu1.hs-scripts.com": 1,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "js-eu1.hubspot.com": 1,
+    "js-eu1.hs-analytics.net": 1,
+    "js-eu1.usemessages.com": 1,
+    "js-eu1.hs-banner.com": 1,
+    "api-eu1.hubspot.com": 1,
+    "track-eu1.hubspot.com": 1,
+    "cta-eu1.hubspot.com": 1,
+    "perf-eu1.hsforms.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": null,
+  "screenshot": "scans/www-addevent-com_20261105_090702.png",
+  "error": null,
+  "saved_as": "scans/www-addevent-com_20261105_090702.json"
+}

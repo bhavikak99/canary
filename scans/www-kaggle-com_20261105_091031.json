@@ -1,0 +1,36 @@
+{
+  "url": "https://www.kaggle.com/account/login",
+  "site": "www.kaggle.com",
+  "canary": "canary-b3320e7b@example.com",
+  "identity": {
+    "email": "canary-b3320e7b@example.com",
+    "name": "Robin CanaryPffdbskp",
+    "phone": "4155551332"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:10:31",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Sign In\" to find the form",
+    "Clicked \"Sign In\" to find the form",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "accounts.google.com": 1,
+    "fonts.googleapis.com": 4,
+    "www.google.com": 3,
+    "www.googletagmanager.com": 1,
+    "apis.google.com": 2,
+    "www.gstatic.com": 5,
+    "fonts.gstatic.com": 3,
+    "www.google-analytics.com": 3
+  },
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-kaggle-com_20261105_091031.json"
+}

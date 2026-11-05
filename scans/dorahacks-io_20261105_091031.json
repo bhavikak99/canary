@@ -1,0 +1,29 @@
+{
+  "url": "https://dorahacks.io/",
+  "site": "dorahacks.io",
+  "canary": "canary-99b6ecee@example.com",
+  "identity": {
+    "email": "canary-99b6ecee@example.com",
+    "name": "Robin CanaryMmpjsqss",
+    "phone": "4155559916"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:10:31",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "afb1e13faaac.17d79a84.ap-southeast-1.token.awswaf.com": 4,
+    "afb1e13faaac.17d79a84.ap-southeast-1.captcha.awswaf.com": 1,
+    "static.captcha.awswaf.com": 2
+  },
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/dorahacks-io_20261105_091031.json"
+}

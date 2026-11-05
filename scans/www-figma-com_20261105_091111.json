@@ -1,0 +1,44 @@
+{
+  "url": "https://www.figma.com/signup",
+  "site": "www.figma.com",
+  "canary": "canary-9642b6fd@example.com",
+  "identity": {
+    "email": "canary-9642b6fd@example.com",
+    "name": "Robin CanaryMjgdpjtr",
+    "phone": "4155559642"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:11:11",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [
+    {
+      "field": "email",
+      "host": "www.figma.com",
+      "company": "Unknown company",
+      "category": "Not in our list yet",
+      "risk": "unknown",
+      "disguise": "URL-encoded",
+      "method": "GET",
+      "request_url": "https://www.figma.com/api/org_saml_config_required?email=canary-9642b6fd%40example.com",
+      "body_snippet": "",
+      "seconds_after_typing": 1.4,
+      "third_party": false
+    }
+  ],
+  "third_parties": {
+    "prodregistryv2.org": 2
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.figma.com/privacy/",
+  "screenshot": "scans/www-figma-com_20261105_091111.png",
+  "error": null,
+  "saved_as": "scans/www-figma-com_20261105_091111.json"
+}

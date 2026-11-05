@@ -1,0 +1,53 @@
+{
+  "url": "https://www.paperlesspost.com/",
+  "site": "www.paperlesspost.com",
+  "canary": "canary-f4f0fe73@example.com",
+  "identity": {
+    "email": "canary-f4f0fe73@example.com",
+    "name": "Robin CanaryTgtbtskf",
+    "phone": "4155555450"
+  },
+  "fields_typed": [
+    "phone"
+  ],
+  "time": "2026-11-05 09:07:29",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Log in\" to find the form",
+    "Typed a fake phone and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "cdn.builder.io": 8,
+    "assets-development.ppassets.com": 3,
+    "assets.ppassets.com": 92,
+    "sessions.bugsnag.com": 2,
+    "trk.ppassets.com": 13,
+    "www.googletagmanager.com": 4,
+    "cnstrc.com": 1,
+    "s.pinimg.com": 2,
+    "static.hotjar.com": 3,
+    "platform.iteratehq.com": 2,
+    "connect.facebook.net": 2,
+    "www.google.com": 3,
+    "ad.doubleclick.net": 1,
+    "ct.pinterest.com": 4,
+    "iteratehq.com": 1,
+    "analytics.google.com": 4,
+    "stats.g.doubleclick.net": 2,
+    "content.hotjar.io": 1,
+    "appleid.cdn-apple.com": 1,
+    "accounts.google.com": 3,
+    "fonts.gstatic.com": 1,
+    "googleads.g.doubleclick.net": 1,
+    "play.google.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.paperlesspost.com/privacy-policy",
+  "screenshot": "scans/www-paperlesspost-com_20261105_090729.png",
+  "error": null,
+  "saved_as": "scans/www-paperlesspost-com_20261105_090729.json"
+}

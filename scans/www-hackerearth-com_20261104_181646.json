@@ -1,0 +1,17 @@
+{
+  "url": "https://www.hackerearth.com/signup/",
+  "site": "www.hackerearth.com",
+  "canary": "canary-a20fdcd5@example.com",
+  "time": "2026-11-04 18:16:46",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "leaks": [],
+  "third_parties": {},
+  "found_email_box": false,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-hackerearth-com_20261104_181646.json"
+}

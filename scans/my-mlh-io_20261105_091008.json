@@ -1,0 +1,48 @@
+{
+  "url": "https://my.mlh.io/users/sign_up",
+  "site": "my.mlh.io",
+  "canary": "canary-7b71146d@example.com",
+  "identity": {
+    "email": "canary-7b71146d@example.com",
+    "name": "Robin CanaryKpkccgjr",
+    "phone": "4155557171"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:10:08",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Sign In\" to find the form",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "www.mlh.com": 51,
+    "fonts.googleapis.com": 1,
+    "static.cloudflareinsights.com": 1,
+    "betterstack.net": 1,
+    "fonts.gstatic.com": 2,
+    "s244070.eu-central-1a.betterstackdata.com": 5,
+    "connect.facebook.net": 2,
+    "www.googletagmanager.com": 2,
+    "snap.licdn.com": 1,
+    "px.ads.linkedin.com": 7,
+    "www.redditstatic.com": 1,
+    "pixel-config.reddit.com": 1,
+    "alb.reddit.com": 1,
+    "analytics.google.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "www.linkedin.com": 1,
+    "challenges.cloudflare.com": 12,
+    "brunhild.challenges.cloudflare.com": 2
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.mlh.com/privacy",
+  "screenshot": "scans/my-mlh-io_20261105_091008.png",
+  "error": null,
+  "saved_as": "scans/my-mlh-io_20261105_091008.json"
+}

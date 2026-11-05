@@ -1,0 +1,22 @@
+{
+  "url": "https://shop.lululemon.com/",
+  "site": "shop.lululemon.com",
+  "canary": "canary-36c961da@example.com",
+  "identity": {
+    "email": "canary-36c961da@example.com",
+    "name": "Robin CanaryFjqmjcrn",
+    "phone": "4155553629"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:14:23",
+  "steps": [],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {},
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://shop.lululemon.com/\nCall log:\n  - navigating to \"https://shop.lululemon.com/\", waiting until \"load\"\n",
+  "saved_as": "scans/shop-lululemon-com_20261105_091423.json"
+}

@@ -1,0 +1,59 @@
+{
+  "url": "https://www.jotform.com/signup/",
+  "site": "www.jotform.com",
+  "canary": "canary-f5de581c@example.com",
+  "identity": {
+    "email": "canary-f5de581c@example.com",
+    "name": "Robin CanaryThrshlcq",
+    "phone": "4155555534"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:08:16",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "cdn.jotfor.ms": 34,
+    "www.googletagmanager.com": 5,
+    "connect.facebook.net": 4,
+    "accounts.google.com": 1,
+    "appleid.cdn-apple.com": 1,
+    "bat.bing.com": 1,
+    "www.clarity.ms": 1,
+    "snap.licdn.com": 1,
+    "js.hs-scripts.com": 1,
+    "bzrcdn.openai.com": 2,
+    "www.google.com": 13,
+    "ad.doubleclick.net": 1,
+    "js.hs-analytics.net": 1,
+    "js.hsadspixel.net": 1,
+    "js.hs-banner.com": 1,
+    "js.usemessages.com": 1,
+    "api.hubspot.com": 1,
+    "api.hubapi.com": 1,
+    "px.ads.linkedin.com": 4,
+    "analytics.google.com": 4,
+    "stats.g.doubleclick.net": 1,
+    "googleads.g.doubleclick.net": 4,
+    "scripts.clarity.ms": 1,
+    "bat.bing.net": 1,
+    "www.linkedin.com": 1,
+    "l.clarity.ms": 4,
+    "bzr.openai.com": 1,
+    "c.clarity.ms": 1,
+    "track.hubspot.com": 1,
+    "c.bing.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": null,
+  "screenshot": "scans/www-jotform-com_20261105_090816.png",
+  "error": null,
+  "saved_as": "scans/www-jotform-com_20261105_090816.json"
+}

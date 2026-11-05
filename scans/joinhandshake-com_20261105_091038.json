@@ -1,0 +1,50 @@
+{
+  "url": "https://joinhandshake.com/",
+  "site": "joinhandshake.com",
+  "canary": "canary-73658201@example.com",
+  "identity": {
+    "email": "canary-73658201@example.com",
+    "name": "Robin CanaryKfjhldbc",
+    "phone": "4155557365"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:10:38",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Reject All\" on the cookie banner",
+    "Clicked \"Log in\" to find the form",
+    "No email box found"
+  ],
+  "cookie_choice": "rejected",
+  "after_reject": {
+    "na-data.kameleoon.io": 2,
+    "www.google-analytics.com": 1,
+    "cdnjs.cloudflare.com": 1,
+    "csp-report.browser-intake-datadoghq.com": 1,
+    "sessions.bugsnag.com": 3,
+    "edge.fullstory.com": 2,
+    "browser-intake-datadoghq.com": 12
+  },
+  "leaks": [],
+  "third_parties": {
+    "uozbz8s4kp.kameleoon.io": 1,
+    "global.ketchcdn.com": 8,
+    "cdn.ketchjs.com": 1,
+    "na-data.kameleoon.io": 7,
+    "www.googletagmanager.com": 4,
+    "pagead2.googlesyndication.com": 4,
+    "www.redditstatic.com": 1,
+    "alb.reddit.com": 1,
+    "www.google-analytics.com": 2,
+    "cdnjs.cloudflare.com": 1,
+    "csp-report.browser-intake-datadoghq.com": 1,
+    "sessions.bugsnag.com": 3,
+    "edge.fullstory.com": 2,
+    "browser-intake-datadoghq.com": 12
+  },
+  "found_email_box": false,
+  "policy_url_found": "https://joinhandshake.com/privacy-policy/",
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/joinhandshake-com_20261105_091038.json"
+}

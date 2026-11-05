@@ -1,0 +1,25 @@
+{
+  "url": "https://www.axs.com/",
+  "site": "www.axs.com",
+  "canary": "canary-78dae742@example.com",
+  "identity": {
+    "email": "canary-78dae742@example.com",
+    "name": "Robin CanaryKlrnskgd",
+    "phone": "4155557830"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:05:28",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {},
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-axs-com_20261105_090528.json"
+}

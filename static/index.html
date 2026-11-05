@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canary · Catch websites taking your info before you hit submit</title>
+<link rel="icon" href="/static/bird.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/static/bird.svg" alt="">Canary</a>
+    <div class="navlinks">
+      <a href="/#story">How it happens</a><a href="/#features">How Canary works</a><a href="/#event">Check my event</a><a href="/#findings">Findings</a>
+      <a class="pillbtn" href="/#top">Run a test</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="blob a"></div><div class="blob b"></div><div class="blob c"></div>
+  <div class="wrap">
+    <h1>Some websites take your info <span class="grad-text">before</span> you hit submit.</h1>
+    <p class="lead">Canary types a fake name, email and phone number into any form, never presses submit, and shows you every company it gets sent to.</p>
+    <div class="scan">
+      <form id="scanForm">
+        <input id="url" type="url" placeholder="Paste a sign-in, sign-up or registration page" value="https://www.eventbrite.com/signin/" required>
+        <button class="go" id="goBtn" type="submit">Run test</button>
+      </form>
+    </div>
+    <div class="picks">
+      <span>Try</span>
+      <button class="chip" data-url="https://www.eventbrite.com/signin/">Eventbrite</button>
+      <button class="chip" data-url="https://www.cvent.com/">Cvent</button>
+      <button class="chip" data-url="https://lu.ma/signin">Luma</button>
+      <button class="chip" data-url="https://secure.meetup.com/login/">Meetup</button>
+    </div>
+    <div class="opts">
+      <label class="switch" id="aiSwitch"><input type="checkbox" id="aiToggle"><i></i><span id="aiLabel">Compare with their privacy policy (AI)</span></label>
+      <button class="linkbtn" id="replayToggle" type="button">Replay a saved test</button>
+    </div>
+    <div class="subrow" id="policyRow"><input id="policyUrl" placeholder="Privacy policy link (optional: Canary finds it for you)"></div>
+    <div class="subrow" id="replayRow"><select id="replaySelect"></select><button class="ghost" id="replayGo" type="button">Show</button></div>
+
+    <div class="ticker" id="ticker"><div class="row" id="tickerRow"></div></div>
+  </div>
+</header>
+
+<section class="story" id="story">
+  <div class="wrap">
+    <div class="sec-head rv"><div class="eb">How it happens</div><h2>You haven't clicked anything yet.<br>Your email is already gone.</h2>
+      <p>This is what we caught on a real event sign-in page, step by step.</p></div>
+    <div class="story-grid">
+      <div class="steps">
+        <div class="stp" data-step="1"><div class="n">01</div><h3>You open a sign-in page</h3><p>You want to grab a ticket for an event, so you open the sign-in page. Nothing unusual. Just an email box and a button.</p></div>
+        <div class="stp" data-step="2"><div class="n">02</div><h3>You type your email</h3><p>You type your email address and click into the next box. You haven't agreed to anything. You haven't pressed submit.</p></div>
+        <div class="stp" data-step="3"><div class="n">03</div><h3>It's already been sent</h3><p>About two seconds after typing, the page quietly sends a scrambled copy of your email to Pinterest's ad network. The same email always scrambles the same way, so they can match it to you.</p></div>
+        <div class="stp" data-step="4"><div class="n">04</div><h3>Canary catches it, with proof</h3><p>Canary does this with a fake identity that exists nowhere else, so every leak is provable. You get the exact request, the timing, and a ready-to-send report.</p></div>
+      </div>
+      <div class="phone-col">
+        <div class="phone-sticky">
+          <div class="phone" id="phone" data-s="1">
+            <div class="screen">
+              <div class="notch"></div>
+              <div class="notif"><div class="t"><span>NETWORK REQUEST</span><span>1.9s after typing</span></div>
+                <div class="who"><i></i>ct.pinterest.com</div>
+                <div class="what">aem=b42b66e743675e0cb567fcc02aea1b55...</div></div>
+              <div class="urlbar"><svg class="ico" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>eventbrite.com/signin</div>
+              <div class="app">
+                <div class="logo">Event tickets</div>
+                <h4>Log in</h4><div class="sub">to get your tickets</div>
+                <div class="field f-email"><span class="typed" id="typed"></span><span class="caret" id="caret" style="display:none"></span><span id="ph">Email address</span></div>
+                <div class="field">Password</div>
+                <div class="submit">Log in<span class="untouched">Not pressed</span></div>
+              </div>
+              <div class="report">
+                <div class="mini-verdict"><div class="k">LEAK DETECTED</div><div class="h">Your email left before you hit submit</div><div style="font-size:.8rem;opacity:.9">Eventbrite to Pinterest</div></div>
+                <div class="mini-row"><span>Sent as</span><b>SHA-256 hash</b></div>
+                <div class="mini-row"><span>Timing</span><b>1.9s after typing</b></div>
+                <div class="mini-row"><span>Repeated</span><b>4 of 4 tests</b></div>
+                <div class="mini-row"><span>Submit pressed</span><b>Never</b></div>
+              </div>
+            </div>
+            <div class="dots"><i class="on"></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="feat" id="features">
+  <div class="wrap">
+    <div class="sec-head rv"><div class="eb">How Canary works</div><h2>Like a canary in a coal mine.</h2>
+      <p>It goes in first, so you don't have to. Tap a card to see how.</p></div>
+    <div class="flips">
+      <button class="flip rv" type="button"><span class="inner">
+        <span class="face front"><span class="ic" data-i="at"></span><span class="ft">Plants a fake identity</span><span class="hint" data-i="flip"></span></span>
+        <span class="face back"><span class="bt">Plants a fake identity</span><span class="bp">Every test gets a brand-new name, email and phone number that exist nowhere else. If one shows up somewhere, that's proof.</span></span>
+      </span></button>
+      <button class="flip rv" type="button"><span class="inner">
+        <span class="face front"><span class="ic" data-i="type"></span><span class="ft">Types, never submits</span><span class="hint" data-i="flip"></span></span>
+        <span class="face back"><span class="bt">Types, never submits</span><span class="bp">A real browser opens the page, says no to cookies and types like a person. Then it stops. Submit is never pressed.</span></span>
+      </span></button>
+      <button class="flip rv" type="button"><span class="inner">
+        <span class="face front"><span class="ic" data-i="search"></span><span class="ft">Catches every copy</span><span class="hint" data-i="flip"></span></span>
+        <span class="face back"><span class="bt">Catches every copy</span><span class="bp">It checks everything the page sends, even scrambled (hashed) copies, and names the company that got it.</span></span>
+      </span></button>
+      <button class="flip rv" type="button"><span class="inner">
+        <span class="face front"><span class="ic" data-i="cookie"></span><span class="ft">Checks "Reject all"</span><span class="hint" data-i="flip"></span></span>
+        <span class="face back"><span class="bt">Checks "Reject all"</span><span class="bp">After saying no to cookies, Canary keeps watching. If the page still talks to ad companies, you'll see which ones.</span></span>
+      </span></button>
+      <button class="flip rv" type="button"><span class="inner">
+        <span class="face front"><span class="ic" data-i="doc"></span><span class="ft">Reads the fine print</span><span class="hint" data-i="flip"></span></span>
+        <span class="face back"><span class="bt">Reads the fine print</span><span class="bp">Claude reads their privacy policy and pulls out what they promised. Our code checks every quote against the real page, so nothing is made up.</span></span>
+      </span></button>
+      <button class="flip rv" type="button"><span class="inner">
+        <span class="face front"><span class="ic" data-i="mail"></span><span class="ft">Helps you act</span><span class="hint" data-i="flip"></span></span>
+        <span class="face back"><span class="bt">Helps you act</span><span class="bp">Download a proof report or send the company a ready-made message. Organizers can check every page before an event.</span></span>
+      </span></button>
+    </div>
+  </div>
+</section>
+
+<section class="event" id="event">
+  <div class="wrap">
+    <div class="sec-head rv"><div class="eb">For organizers</div><h2>Check your event before you share it.</h2>
+      <p>Paste every page your attendees will type into: registration, tickets, forms. Canary checks them all.</p></div>
+    <div class="ev rv">
+      <div class="panel evform">
+        <label for="evName">Event name</label><input id="evName" value="My Hackathon 2026">
+        <label for="evPages">Pages, one per line</label>
+        <textarea id="evPages">https://www.eventbrite.com/signin/
+https://lu.ma/signin
+https://www.cvent.com/</textarea>
+        <button class="go" id="evGo">Check all pages</button>
+      </div>
+      <div id="evOut"><div class="panel empty">Each page shows up here as it's checked.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="find" id="findings">
+  <div class="wrap">
+    <div class="sec-head rv"><div class="eb">Investigation</div><h2>What we found.</h2>
+      <p>We ran Canary on real sign-up and sign-in pages. Every page got its own fresh fake identity.</p></div>
+    <div id="findOut" class="rv"><div class="panel empty">No investigation yet. Run <span class="mono">python batch_scan.py</span> to create one.</div></div>
+  </div>
+</section>
+
+<footer><div class="wrap"><a class="brand" href="/" style="font-size:1.05rem"><img src="/static/bird.svg" alt="" style="width:22px;height:22px">Canary</a>
+  <span>Built for ETHIS AI for Greater Good. Uses fake details and never submits a form.</span></div></footer>
+
+<script src="/static/common.js"></script>
+<script src="/static/home.js"></script>
+</body>
+</html>

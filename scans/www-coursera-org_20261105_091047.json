@@ -1,0 +1,51 @@
+{
+  "url": "https://www.coursera.org/",
+  "site": "www.coursera.org",
+  "canary": "canary-0437ce71@example.com",
+  "identity": {
+    "email": "canary-0437ce71@example.com",
+    "name": "Robin CanaryBgfkqskc",
+    "phone": "4155550437"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:10:47",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Log In\" to find the form",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [
+    {
+      "field": "email",
+      "host": "www.coursera.org",
+      "company": "Unknown company",
+      "category": "Not in our list yet",
+      "risk": "unknown",
+      "disguise": "plain text",
+      "method": "POST",
+      "request_url": "https://www.coursera.org/api/thirdpartyauth.v1/forceSsoLogin",
+      "body_snippet": "{\"email\":\"canary-0437ce71@example.com\",\"returnTo\":\"/\"}",
+      "seconds_after_typing": 1.8,
+      "third_party": false
+    }
+  ],
+  "third_parties": {
+    "d3njjcbhbojbot.cloudfront.net": 110,
+    "coursera_assets.s3.amazonaws.com": 2,
+    "browser.sentry-cdn.com": 1,
+    "o75955.ingest.sentry.io": 1,
+    "accounts.google.com": 5,
+    "google.com": 1,
+    "coursera-api.arkoselabs.com": 2
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.coursera.org/about/privacy",
+  "screenshot": "scans/www-coursera-org_20261105_091047.png",
+  "error": null,
+  "saved_as": "scans/www-coursera-org_20261105_091047.json"
+}

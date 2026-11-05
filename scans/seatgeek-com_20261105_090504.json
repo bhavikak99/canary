@@ -1,0 +1,29 @@
+{
+  "url": "https://seatgeek.com/login",
+  "site": "seatgeek.com",
+  "canary": "canary-88467e33@example.com",
+  "identity": {
+    "email": "canary-88467e33@example.com",
+    "name": "Robin CanaryLlgjksff",
+    "phone": "4155558846"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:05:04",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "ct.captcha-delivery.com": 1,
+    "geo.captcha-delivery.com": 1,
+    "static.captcha-delivery.com": 8
+  },
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/seatgeek-com_20261105_090504.json"
+}

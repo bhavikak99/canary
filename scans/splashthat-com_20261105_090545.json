@@ -1,0 +1,29 @@
+{
+  "url": "https://splashthat.com/",
+  "site": "splashthat.com",
+  "canary": "canary-bce110c6@example.com",
+  "identity": {
+    "email": "canary-bce110c6@example.com",
+    "name": "Robin CanaryPqsccbqj",
+    "phone": "4155551241"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:05:45",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "ct.captcha-delivery.com": 1,
+    "geo.captcha-delivery.com": 1,
+    "static.captcha-delivery.com": 3
+  },
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/splashthat-com_20261105_090545.json"
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.opentable.com/",
+  "site": "www.opentable.com",
+  "canary": "canary-11c1c4c4@example.com",
+  "identity": {
+    "email": "canary-11c1c4c4@example.com",
+    "name": "Robin CanaryCcqcqgqg",
+    "phone": "4155551121"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:14:51",
+  "steps": [],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {},
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.opentable.com/\nCall log:\n  - navigating to \"https://www.opentable.com/\", waiting until \"load\"\n",
+  "saved_as": "scans/www-opentable-com_20261105_091451.json"
+}

@@ -1,0 +1,89 @@
+{
+  "url": "https://www.eventbrite.com/signin/",
+  "site": "www.eventbrite.com",
+  "canary": "canary-59caed99@example.com",
+  "identity": {
+    "email": "canary-59caed99@example.com",
+    "name": "Robin CanaryHmqnsrmm",
+    "phone": "4155555920"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:34:04",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [
+    {
+      "field": "email",
+      "host": "ct.pinterest.com",
+      "company": "Pinterest",
+      "category": "Advertising network",
+      "risk": "high",
+      "disguise": "SHA-256 hash",
+      "method": "GET",
+      "request_url": "https://ct.pinterest.com/user/?pd=%7B%22aem%22%3A%22ab73d9130f16560fd9cec9a51843d892b6479d78cda866b15d9d418982350902%22%7D&cb=1793900053650&dep=1%2CLISTENER_SCRAPE",
+      "body_snippet": "",
+      "seconds_after_typing": 1.7,
+      "third_party": true
+    }
+  ],
+  "third_parties": {
+    "cdn.evbstatic.com": 21,
+    "apis.google.com": 2,
+    "ssl.google-analytics.com": 1,
+    "www.google-analytics.com": 2,
+    "www.googletagmanager.com": 1,
+    "s.pinimg.com": 2,
+    "bat.bing.com": 3,
+    "connect.facebook.net": 3,
+    "analytics.tiktok.com": 14,
+    "cdn.heapanalytics.com": 1,
+    "js.hs-scripts.com": 1,
+    "utt.impactcdn.com": 1,
+    "pixel.byspotify.com": 1,
+    "bzrcdn.openai.com": 2,
+    "www.google.com": 28,
+    "ad.doubleclick.net": 1,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1,
+    "js.hs-banner.com": 1,
+    "js.hubspot.com": 1,
+    "js.hs-analytics.net": 1,
+    "t.contentsquare.net": 2,
+    "eventbrite.pxf.io": 1,
+    "pixels.spotify.com": 2,
+    "ct.pinterest.com": 6,
+    "analytics-ipv6.tiktokw.us": 1,
+    "cta-service-cms2.hubspot.com": 1,
+    "www.ojrq.net": 1,
+    "perf-na1.hsforms.com": 1,
+    "googleads.g.doubleclick.net": 10,
+    "c.contentsquare.net": 2,
+    "static.hj.contentsquare.net": 1,
+    "k-aus1.contentsquare.net": 1,
+    "heapanalytics.com": 4,
+    "srm.bf.contentsquare.net": 1,
+    "bzr.openai.com": 1,
+    "js.zi-scripts.com": 2,
+    "track.hubspot.com": 1,
+    "ws.zoominfo.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.eventbrite.com/privacypolicy",
+  "screenshot": "scans/www-eventbrite-com_20261105_093404.png",
+  "error": null,
+  "saved_as": "scans/www-eventbrite-com_20261105_093404.json",
+  "policy": {
+    "statements": [],
+    "rejected": [],
+    "summary": "The provided text is a Cloudflare security verification page rather than Eventbrite's actual privacy policy, so it contains no statements about sharing email addresses, tracking pixels, or enhanced matching. We cannot judge whether the observed pre-submit transmission of a hashed email to ct.pinterest.com is disclosed until the real policy text is retrieved.",
+    "policy_url": "https://www.eventbrite.com/help/en-us/articles/460838/eventbrite-privacy-policy/"
+  },
+  "policy_url": "https://www.eventbrite.com/help/en-us/articles/460838/eventbrite-privacy-policy/"
+}

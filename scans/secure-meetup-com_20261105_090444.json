@@ -1,0 +1,44 @@
+{
+  "url": "https://secure.meetup.com/login/",
+  "site": "secure.meetup.com",
+  "canary": "canary-a4b8e9eb@example.com",
+  "identity": {
+    "email": "canary-a4b8e9eb@example.com",
+    "name": "Robin CanaryNgplsmsp",
+    "phone": "4155550418"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:04:44",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "www.facebook.com": 1,
+    "secure.meetupstatic.com": 4,
+    "cdn.cookielaw.org": 13,
+    "cdn.nift.me": 1,
+    "accounts.google.com": 5,
+    "js.hcaptcha.com": 1,
+    "59f5dc5483b2.w.hcaptcha.com": 1,
+    "newassets.hcaptcha.com": 3,
+    "geolocation.onetrust.com": 1,
+    "e6e81becf47c.w.hcaptcha.com": 1,
+    "api.hcaptcha.com": 1,
+    "connect.facebook.net": 1,
+    "apps.rokt.com": 2,
+    "google.com": 1,
+    "spidersense.bendingspoons.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": null,
+  "screenshot": "scans/secure-meetup-com_20261105_090444.png",
+  "error": null,
+  "saved_as": "scans/secure-meetup-com_20261105_090444.json"
+}

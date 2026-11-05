@@ -1,0 +1,17 @@
+{
+  "url": "https://www.warbyparker.com/",
+  "site": "www.warbyparker.com",
+  "canary": "canary-9f233249@example.com",
+  "time": "2026-11-04 18:19:07",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "leaks": [],
+  "third_parties": {},
+  "found_email_box": false,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-warbyparker-com_20261104_181907.json"
+}

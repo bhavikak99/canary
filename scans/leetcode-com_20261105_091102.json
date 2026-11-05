@@ -1,0 +1,28 @@
+{
+  "url": "https://leetcode.com/accounts/signup/",
+  "site": "leetcode.com",
+  "canary": "canary-3f7ed34b@example.com",
+  "identity": {
+    "email": "canary-3f7ed34b@example.com",
+    "name": "Robin CanaryFtksrfgp",
+    "phone": "4155553574"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:11:02",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "challenges.cloudflare.com": 6,
+    "brunhild.challenges.cloudflare.com": 1
+  },
+  "found_email_box": false,
+  "policy_url_found": "https://www.cloudflare.com/privacypolicy/",
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/leetcode-com_20261105_091102.json"
+}

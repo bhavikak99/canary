@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canary · Test results</title>
+<link rel="icon" href="/static/bird.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="testpage">
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/static/bird.svg" alt="">Canary</a>
+    <div class="navlinks">
+      <a href="/#story">How it happens</a><a href="/#features">How Canary works</a><a href="/#event">Check my event</a><a href="/#findings">Findings</a>
+      <a class="pillbtn" href="/">Home</a>
+    </div>
+  </div>
+</nav>
+
+<header class="tp-head">
+  <div class="blob a"></div><div class="blob b"></div>
+  <div class="wrap">
+    <a class="backlink" href="/"><span data-i="back"></span>Back to home</a>
+    <div class="tp-title">
+      <div>
+        <div class="eb-sm" id="tpKicker">Live test</div>
+        <h1 id="tpSite">Testing a page</h1>
+        <div class="tp-url mono" id="tpUrl"></div>
+      </div>
+      <form class="tp-form" id="tpForm">
+        <input id="url" type="url" placeholder="Test another page" required>
+        <button class="go" id="goBtn" type="submit">Run test</button>
+      </form>
+    </div>
+    <div class="opts left">
+      <label class="switch" id="aiSwitch"><input type="checkbox" id="aiToggle"><i></i><span id="aiLabel">Compare with their privacy policy (AI)</span></label>
+    </div>
+    <div class="subrow left" id="policyRow"><input id="policyUrl" placeholder="Privacy policy link (optional: Canary finds it for you)"></div>
+  </div>
+</header>
+
+<section id="live"><div class="wrap">
+  <div class="panel log">
+    <div class="log-head"><div class="t"><span class="spinner" id="spin"></span><span id="liveTitle">Testing</span></div><span class="timer" id="liveTimer">0.0s</span></div>
+    <ul id="feed"></ul>
+  </div>
+</div></section>
+
+<section id="results"><div class="wrap"><div class="res" id="resultsInner"></div></div></section>
+
+<footer><div class="wrap"><a class="brand" href="/" style="font-size:1.05rem"><img src="/static/bird.svg" alt="" style="width:22px;height:22px">Canary</a>
+  <span>Built for ETHIS AI for Greater Good. Uses fake details and never submits a form.</span></div></footer>
+
+<script src="/static/common.js"></script>
+<script src="/static/results.js"></script>
+<script src="/static/test.js"></script>
+</body>
+</html>

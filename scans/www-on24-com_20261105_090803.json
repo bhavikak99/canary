@@ -1,0 +1,25 @@
+{
+  "url": "https://www.on24.com/",
+  "site": "www.on24.com",
+  "canary": "canary-eb82c58a@example.com",
+  "identity": {
+    "email": "canary-eb82c58a@example.com",
+    "name": "Robin CanarySpldqhln",
+    "phone": "4155554182"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:08:03",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {},
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-on24-com_20261105_090803.json"
+}

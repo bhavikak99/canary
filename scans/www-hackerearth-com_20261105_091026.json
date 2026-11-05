@@ -1,0 +1,25 @@
+{
+  "url": "https://www.hackerearth.com/signup/",
+  "site": "www.hackerearth.com",
+  "canary": "canary-b59c8e05@example.com",
+  "identity": {
+    "email": "canary-b59c8e05@example.com",
+    "name": "Robin CanaryPhmqlsbh",
+    "phone": "4155551592"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:10:26",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {},
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-hackerearth-com_20261105_091026.json"
+}

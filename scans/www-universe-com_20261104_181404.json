@@ -1,0 +1,39 @@
+{
+  "url": "https://www.universe.com/sign-in",
+  "site": "www.universe.com",
+  "canary": "canary-0baaff27@example.com",
+  "time": "2026-11-04 18:14:04",
+  "steps": [
+    "Opened the page",
+    "Typed the fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "leaks": [],
+  "third_parties": {
+    "cdnjs.cloudflare.com": 2,
+    "embed.ticketmaster.com": 1,
+    "js.stripe.com": 6,
+    "cdn.ravenjs.com": 1,
+    "maps.googleapis.com": 2,
+    "challenges.cloudflare.com": 10,
+    "www.googletagmanager.com": 11,
+    "use.typekit.net": 5,
+    "cdn.amplitude.com": 1,
+    "connect.facebook.net": 3,
+    "cdn.cookielaw.org": 10,
+    "p.typekit.net": 1,
+    "geolocation.onetrust.com": 1,
+    "t.contentsquare.net": 1,
+    "c.contentsquare.net": 2,
+    "m.stripe.network": 2,
+    "k-aus1.contentsquare.net": 1,
+    "m.stripe.com": 1,
+    "tagging.moshtix.com": 6,
+    "brunhild.challenges.cloudflare.com": 1
+  },
+  "found_email_box": true,
+  "screenshot": "scans/www-universe-com_20261104_181404.png",
+  "error": null,
+  "saved_as": "scans/www-universe-com_20261104_181404.json"
+}

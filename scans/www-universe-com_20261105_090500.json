@@ -1,0 +1,45 @@
+{
+  "url": "https://www.universe.com/sign-in",
+  "site": "www.universe.com",
+  "canary": "canary-a6c296fb@example.com",
+  "identity": {
+    "email": "canary-a6c296fb@example.com",
+    "name": "Robin CanaryNjqdmjtp",
+    "phone": "4155550622"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:05:00",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "cdnjs.cloudflare.com": 2,
+    "embed.ticketmaster.com": 1,
+    "js.stripe.com": 6,
+    "cdn.ravenjs.com": 1,
+    "maps.googleapis.com": 2,
+    "challenges.cloudflare.com": 10,
+    "www.googletagmanager.com": 8,
+    "use.typekit.net": 5,
+    "cdn.amplitude.com": 1,
+    "p.typekit.net": 1,
+    "connect.facebook.net": 3,
+    "cdn.cookielaw.org": 4,
+    "m.stripe.network": 2,
+    "geolocation.onetrust.com": 1,
+    "m.stripe.com": 1,
+    "brunhild.challenges.cloudflare.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": null,
+  "screenshot": "scans/www-universe-com_20261105_090500.png",
+  "error": null,
+  "saved_as": "scans/www-universe-com_20261105_090500.json"
+}

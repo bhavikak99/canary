@@ -1,0 +1,42 @@
+{
+  "url": "https://whova.com/",
+  "site": "whova.com",
+  "canary": "canary-9f2ffb99@example.com",
+  "time": "2026-11-04 18:15:42",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Get Started\" to find the form",
+    "Typed the fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "leaks": [
+    {
+      "host": "whova.com",
+      "company": "Unknown company",
+      "category": "Not in our list yet",
+      "risk": "unknown",
+      "disguise": "URL-encoded",
+      "method": "POST",
+      "request_url": "https://whova.com/marketing/website_track/track_action/",
+      "body_snippet": "user_id=e41254cd-77d2-4623-8ab4-e73a4e4e43e8&webpage=https%3A%2F%2Fwhova.com%2Frequest-demo%2F%3Fsource%3Dhp_top_btn&action=input&other_info=%7B%22ip_address%22%3A%22130.65.254.10%22%2C%22source%22%3A%22https%3A%2F%2Fwhova.com%2F%22%2C%22device%22%3A%22desktop%22%2C%22browser%22%3A%22Mozilla%2F5.0+(Macintosh%3B+Intel+Mac+OS+X+10_15_7)+AppleWebKit%2F537.36+(KHTML%2C+like+Gecko)+HeadlessChrome%2F156.0.8078.4+Safari%2F537.36%22%2C%22request_type%22%3A%22request_demo%22%2C%22email%22%3A%22canary-9f2",
+      "seconds_after_typing": 1.8,
+      "third_party": false
+    }
+  ],
+  "third_parties": {
+    "fonts.googleapis.com": 6,
+    "cdn.jsdelivr.net": 6,
+    "www.youtube.com": 2,
+    "tracking.g2crowd.com": 1,
+    "fonts.gstatic.com": 11,
+    "tracking-api.g2.com": 1,
+    "cdnjs.cloudflare.com": 4,
+    "d1keuthy5s86c8.cloudfront.net": 1,
+    "code.jquery.com": 2
+  },
+  "found_email_box": true,
+  "screenshot": "scans/whova-com_20261104_181542.png",
+  "error": null,
+  "saved_as": "scans/whova-com_20261104_181542.json"
+}

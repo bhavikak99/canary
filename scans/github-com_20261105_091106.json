@@ -1,0 +1,29 @@
+{
+  "url": "https://github.com/signup",
+  "site": "github.com",
+  "canary": "canary-2d5a8577@example.com",
+  "identity": {
+    "email": "canary-2d5a8577@example.com",
+    "name": "Robin CanaryDrhnlhkk",
+    "phone": "4155552350"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:11:06",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "ct.captcha-delivery.com": 1,
+    "geo.captcha-delivery.com": 1,
+    "static.captcha-delivery.com": 4
+  },
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/github-com_20261105_091106.json"
+}

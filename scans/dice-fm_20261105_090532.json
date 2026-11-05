@@ -1,0 +1,28 @@
+{
+  "url": "https://dice.fm/",
+  "site": "dice.fm",
+  "canary": "canary-4efe2732@example.com",
+  "identity": {
+    "email": "canary-4efe2732@example.com",
+    "name": "Robin CanaryGstsdkfd",
+    "phone": "4155554454"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:05:32",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "challenges.cloudflare.com": 6,
+    "brunhild.challenges.cloudflare.com": 1
+  },
+  "found_email_box": false,
+  "policy_url_found": "https://www.cloudflare.com/privacypolicy/",
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/dice-fm_20261105_090532.json"
+}

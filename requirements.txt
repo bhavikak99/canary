@@ -2,3 +2,5 @@ playwright
 streamlit
 anthropic
 pydantic
+fastapi
+uvicorn

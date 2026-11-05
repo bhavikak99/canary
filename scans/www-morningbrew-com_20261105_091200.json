@@ -1,0 +1,36 @@
+{
+  "url": "https://www.morningbrew.com/",
+  "site": "www.morningbrew.com",
+  "canary": "canary-730e64c5@example.com",
+  "identity": {
+    "email": "canary-730e64c5@example.com",
+    "name": "Robin CanaryKfbsjgqh",
+    "phone": "4155557304"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:12:00",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "transcend-cdn.com": 2,
+    "playlist.megaphone.fm": 5,
+    "www.googletagmanager.com": 5,
+    "i.ytimg.com": 4,
+    "cdn.sanity.io": 1,
+    "player.megaphone.fm": 1,
+    "megaphone.imgix.net": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://privacy.morningbrewinc.com/policies",
+  "screenshot": "scans/www-morningbrew-com_20261105_091200.png",
+  "error": null,
+  "saved_as": "scans/www-morningbrew-com_20261105_091200.json"
+}

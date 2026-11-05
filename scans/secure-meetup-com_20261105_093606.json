@@ -1,0 +1,51 @@
+{
+  "url": "https://secure.meetup.com/login/",
+  "site": "secure.meetup.com",
+  "canary": "canary-24b07ab7@example.com",
+  "identity": {
+    "email": "canary-24b07ab7@example.com",
+    "name": "Robin CanaryDgpbknpk",
+    "phone": "4155552410"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:36:06",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "www.facebook.com": 1,
+    "secure.meetupstatic.com": 4,
+    "cdn.cookielaw.org": 13,
+    "cdn.nift.me": 1,
+    "accounts.google.com": 5,
+    "js.hcaptcha.com": 1,
+    "geolocation.onetrust.com": 1,
+    "75e970e9db80.w.hcaptcha.com": 1,
+    "newassets.hcaptcha.com": 3,
+    "1447914bf73c.w.hcaptcha.com": 1,
+    "api.hcaptcha.com": 1,
+    "connect.facebook.net": 1,
+    "apps.rokt.com": 2,
+    "google.com": 1,
+    "spidersense.bendingspoons.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://help.meetup.com/hc/articles/360044422391",
+  "screenshot": "scans/secure-meetup-com_20261105_093606.png",
+  "error": null,
+  "saved_as": "scans/secure-meetup-com_20261105_093606.json",
+  "policy": {
+    "statements": [],
+    "rejected": [],
+    "summary": "The provided text is only a Cloudflare security-verification page, not Meetup's actual privacy policy, so there are no statements to compare against what we observed. No email leak was observed, and the page contacting third-party services such as hCaptcha, Google, Facebook, OneTrust, and Rokt cannot be judged against the policy without the real policy text.",
+    "policy_url": "https://help.meetup.com/hc/articles/360044422391"
+  },
+  "policy_url": "https://help.meetup.com/hc/articles/360044422391"
+}

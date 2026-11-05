@@ -1,0 +1,25 @@
+{
+  "url": "https://www.sephora.com/",
+  "site": "www.sephora.com",
+  "canary": "canary-07b80dbd@example.com",
+  "identity": {
+    "email": "canary-07b80dbd@example.com",
+    "name": "Robin CanaryBkplbrpr",
+    "phone": "4155550718"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:13:53",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {},
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-sephora-com_20261105_091353.json"
+}

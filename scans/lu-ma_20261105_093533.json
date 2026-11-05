@@ -1,0 +1,32 @@
+{
+  "url": "https://lu.ma/signin",
+  "site": "lu.ma",
+  "canary": "canary-40f530a2@example.com",
+  "identity": {
+    "email": "canary-40f530a2@example.com",
+    "name": "Robin CanaryGbthfbnd",
+    "phone": "4155554055"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:35:33",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "luma.com": 71,
+    "api.luma.com": 3,
+    "o370968.ingest.us.sentry.io": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": null,
+  "screenshot": "scans/lu-ma_20261105_093533.png",
+  "error": null,
+  "saved_as": "scans/lu-ma_20261105_093533.json"
+}

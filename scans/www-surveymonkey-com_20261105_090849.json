@@ -1,0 +1,37 @@
+{
+  "url": "https://www.surveymonkey.com/user/sign-up/",
+  "site": "www.surveymonkey.com",
+  "canary": "canary-984ba729@example.com",
+  "identity": {
+    "email": "canary-984ba729@example.com",
+    "name": "Robin CanaryMlgpnkdm",
+    "phone": "4155559841"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:08:49",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "cdn.smassets.net": 5,
+    "prod.smassets.net": 13,
+    "sr-client-cfg.amplitude.com": 5,
+    "www.googletagmanager.com": 1,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "api2.amplitude.com": 1,
+    "rum-ingest.us1.signalfx.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.surveymonkey.com/mp/legal/privacy/",
+  "screenshot": "scans/www-surveymonkey-com_20261105_090849.png",
+  "error": null,
+  "saved_as": "scans/www-surveymonkey-com_20261105_090849.json"
+}

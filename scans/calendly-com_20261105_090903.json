@@ -1,0 +1,45 @@
+{
+  "url": "https://calendly.com/signup",
+  "site": "calendly.com",
+  "canary": "canary-55767912@example.com",
+  "identity": {
+    "email": "canary-55767912@example.com",
+    "name": "Robin CanaryHhkjkmcd",
+    "phone": "4155555576"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 09:09:03",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Decline\" on the cookie banner",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 8 seconds"
+  ],
+  "cookie_choice": "rejected",
+  "after_reject": {
+    "api-sr.amplitude.com": 2
+  },
+  "leaks": [],
+  "third_parties": {
+    "cdn.calendlycms.com": 3,
+    "snippet.maze.co": 2,
+    "www.googletagmanager.com": 2,
+    "cdn.cookielaw.org": 10,
+    "global.ketchcdn.com": 6,
+    "pagead2.googlesyndication.com": 1,
+    "prompts.maze.co": 1,
+    "geolocation.onetrust.com": 1,
+    "cdn.ketchjs.com": 1,
+    "widget.intercom.io": 1,
+    "marketo.clearbit.com": 1,
+    "sr-client-cfg.amplitude.com": 5,
+    "api-sr.amplitude.com": 2
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://calendly.com/legal/privacy-notice",
+  "screenshot": "scans/calendly-com_20261105_090903.png",
+  "error": null,
+  "saved_as": "scans/calendly-com_20261105_090903.json"
+}

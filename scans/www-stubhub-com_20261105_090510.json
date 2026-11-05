@@ -1,0 +1,43 @@
+{
+  "url": "https://www.stubhub.com/login",
+  "site": "www.stubhub.com",
+  "canary": "canary-7156536c@example.com",
+  "identity": {
+    "email": "canary-7156536c@example.com",
+    "name": "Robin CanaryKchjhfjq",
+    "phone": "4155557156"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:05:10",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Sign In\" to find the form",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "fonts.googleapis.com": 2,
+    "b2037b2ab8ee.edge.sdk.awswaf.com": 2,
+    "ws.vggcdn.net": 49,
+    "o4507805351280640.ingest.us.sentry.io": 1,
+    "us-assets.i.posthog.com": 3,
+    "img.vggcdn.net": 4,
+    "bat.bing.com": 1,
+    "wt.viagogo.net": 2,
+    "fonts.gstatic.com": 1,
+    "www.googletagmanager.com": 2,
+    "googleads.g.doubleclick.net": 4,
+    "www.google.com": 6,
+    "ad.doubleclick.net": 1,
+    "www.googleadservices.com": 2,
+    "www.google-analytics.com": 3,
+    "my.vggcdn.net": 8
+  },
+  "found_email_box": false,
+  "policy_url_found": "https://www.stubhub.com/legal?section=pp",
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-stubhub-com_20261105_090510.json"
+}

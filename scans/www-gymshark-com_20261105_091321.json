@@ -1,0 +1,38 @@
+{
+  "url": "https://www.gymshark.com/",
+  "site": "www.gymshark.com",
+  "canary": "canary-25102095@example.com",
+  "identity": {
+    "email": "canary-25102095@example.com",
+    "name": "Robin CanaryDhcbdbmh",
+    "phone": "4155552510"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:13:21",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "cdn.shopify.com": 40,
+    "connect.facebook.net": 2,
+    "cdn.cookielaw.org": 6,
+    "geolocation.onetrust.com": 1,
+    "2deaes0cuo-dsn.algolia.net": 2,
+    "widget.intercom.io": 1,
+    "10ef4229c7d0.edge.sdk.awswaf.com": 5,
+    "browser-intake-datadoghq.eu": 18,
+    "www.googletagmanager.com": 1,
+    "nativesdks.mparticle.com": 1,
+    "www.google-analytics.com": 1,
+    "images.ctfassets.net": 7
+  },
+  "found_email_box": false,
+  "policy_url_found": "https://www.gymshark.com/pages/privacy-notice",
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-gymshark-com_20261105_091321.json"
+}

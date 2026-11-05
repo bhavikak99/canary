@@ -1,0 +1,62 @@
+{
+  "url": "https://www.eventzilla.net/",
+  "site": "www.eventzilla.net",
+  "canary": "canary-41115a59@example.com",
+  "identity": {
+    "email": "canary-41115a59@example.com",
+    "name": "Robin CanaryGccchnhm",
+    "phone": "4155554111"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 09:06:39",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Reject\" on the cookie banner",
+    "Clicked \"Login\" to find the form",
+    "No email box found"
+  ],
+  "cookie_choice": "rejected",
+  "after_reject": {
+    "cpl.iubenda.com": 2,
+    "idb.iubenda.com": 3,
+    "cdnjs.cloudflare.com": 4,
+    "fonts.googleapis.com": 2,
+    "unpkg.com": 3,
+    "embeds.iubenda.com": 2,
+    "fonts.gstatic.com": 2,
+    "cdn.iubenda.com": 2,
+    "www.googletagmanager.com": 2,
+    "player.vimeo.com": 2,
+    "forms.zohopublic.com": 7,
+    "beacon-v2.helpscout.net": 3,
+    "d3hb14vkzrxvla.cloudfront.net": 1,
+    "d2poexpdc5y9vj.cloudfront.net": 28,
+    "maxcdn.bootstrapcdn.com": 2,
+    "stackpath.bootstrapcdn.com": 1
+  },
+  "leaks": [],
+  "third_parties": {
+    "cdnjs.cloudflare.com": 7,
+    "fonts.googleapis.com": 4,
+    "unpkg.com": 9,
+    "embeds.iubenda.com": 3,
+    "cdn.iubenda.com": 3,
+    "www.googletagmanager.com": 3,
+    "player.vimeo.com": 4,
+    "fonts.gstatic.com": 4,
+    "forms.zohopublic.com": 14,
+    "static.zohocdn.com": 97,
+    "idb.iubenda.com": 4,
+    "beacon-v2.helpscout.net": 6,
+    "d3hb14vkzrxvla.cloudfront.net": 2,
+    "cpl.iubenda.com": 2,
+    "d2poexpdc5y9vj.cloudfront.net": 28,
+    "maxcdn.bootstrapcdn.com": 2,
+    "stackpath.bootstrapcdn.com": 1
+  },
+  "found_email_box": false,
+  "policy_url_found": "https://www.eventzilla.net/privacy/",
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/www-eventzilla-net_20261105_090639.json"
+}
