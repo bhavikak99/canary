@@ -1,0 +1,28 @@
+{
+  "url": "https://meet.google.com/meet/khx-qbcw-jhn",
+  "site": "meet.google.com",
+  "canary": "canary-d6fb47c1@example.com",
+  "identity": {
+    "email": "canary-d6fb47c1@example.com",
+    "name": "Robin CanaryRjtpgkqc",
+    "phone": "4155553651"
+  },
+  "fields_typed": [],
+  "time": "2026-11-05 19:07:26",
+  "steps": [
+    "Opened the page",
+    "No email box found"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "www.gstatic.com": 4,
+    "fonts.gstatic.com": 4
+  },
+  "found_email_box": false,
+  "policy_url_found": null,
+  "screenshot": null,
+  "error": null,
+  "saved_as": "scans/meet-google-com_20261105_190726.json"
+}

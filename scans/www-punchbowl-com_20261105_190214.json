@@ -1,0 +1,125 @@
+{
+  "url": "https://www.punchbowl.com/",
+  "site": "www.punchbowl.com",
+  "canary": "canary-0ac7cc35@example.com",
+  "identity": {
+    "email": "canary-0ac7cc35@example.com",
+    "name": "Robin CanaryBnqkqqfh",
+    "phone": "4155550027"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 19:02:14",
+  "steps": [
+    "Opened the page",
+    "Clicked \"Sign In\" to find the form",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 12 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [
+    {
+      "field": "email",
+      "host": "ct.pinterest.com",
+      "company": "Pinterest",
+      "category": "Advertising network",
+      "risk": "high",
+      "disguise": "SHA-256 hash",
+      "method": "GET",
+      "request_url": "https://ct.pinterest.com/user/?pd=%7B%22aem%22%3A%22f821c68ed83dcc120f604b7c2499cdc77c7f3f06807f65ae100b48f969bc5be7%22%7D&cb=1793934150069&dep=1%2CLISTENER_SCRAPE",
+      "body_snippet": "",
+      "seconds_after_typing": 1.6,
+      "third_party": true
+    }
+  ],
+  "third_parties": {
+    "fonts.googleapis.com": 3,
+    "global.ketchcdn.com": 10,
+    "ads.adthrive.com": 14,
+    "fonts.gstatic.com": 1,
+    "connect.facebook.net": 9,
+    "platform.twitter.com": 2,
+    "cdn.ketchjs.com": 2,
+    "match.adsrvr.org": 2,
+    "bd.raptivecdn.com": 2,
+    "www.googletagmanager.com": 1,
+    "s.pinimg.com": 4,
+    "sb.scorecardresearch.com": 5,
+    "secure.quantserve.com": 2,
+    "www.google.com": 10,
+    "ad.doubleclick.net": 1,
+    "wt.alcmpn.com": 2,
+    "static.traversedlp.com": 2,
+    "js.adara.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1,
+    "api.traversedlp.com": 2,
+    "www.facebook.com": 1,
+    "jsres.adara.com": 3,
+    "mpnv2-prod-c.alcmpn.com": 2,
+    "p.alcmpn.com": 2,
+    "googleads.g.doubleclick.net": 3,
+    "rules.quantcount.com": 2,
+    "pixel.quantserve.com": 5,
+    "syndication.twitter.com": 1,
+    "sdk.adara.com": 6,
+    "ct.pinterest.com": 11,
+    "logger.adthrive.com": 2,
+    "idsync.rlcdn.com": 2,
+    "dsum-sec.casalemedia.com": 2,
+    "image2.pubmatic.com": 1,
+    "pixel.rubiconproject.com": 1,
+    "cm.g.doubleclick.net": 2,
+    "tag.yieldoptimizer.com": 5,
+    "pippio.com": 1,
+    "px.ads.linkedin.com": 2,
+    "appleid.cdn-apple.com": 1,
+    "accounts.google.com": 1,
+    "us-u.openx.net": 2,
+    "ib.adnxs.com": 2,
+    "eb2.3lift.com": 2,
+    "x.bidswitch.net": 2,
+    "rtb-csync.smartadserver.com": 1,
+    "usersync.gumgum.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.punchbowl.com/privacy-policy",
+  "screenshot": "scans/www-punchbowl-com_20261105_190214.png",
+  "error": null,
+  "saved_as": "scans/www-punchbowl-com_20261105_190214.json",
+  "policy": {
+    "statements": [
+      {
+        "quote": "We and certain third parties use cookies and similar technologies (such as pixels, web beacons, SDKs, and other tracking technologies) on our Services and in certain communications to collect information about your interactions with our Services.",
+        "verdict": "discloses",
+        "explanation": "The policy admits that third-party pixels on the site collect information about how you interact with it, though it does not specifically mention capturing typed email addresses."
+      },
+      {
+        "quote": "We may use technologies provided by social media platforms to measure the effectiveness of our marketing campaigns, understand engagement with our Services, and support advertising and marketing activities.",
+        "verdict": "unclear",
+        "explanation": "This covers social media tracking tools like Pinterest's, but it does not say they receive your email (hashed or not), let alone before you submit a form."
+      },
+      {
+        "quote": "Some advertising partners may use technologies on our Services or in email communications you have opted to receive from us to recognize your device or browser across different channels and platforms for advertising, analytics, attribution, and reporting purposes.",
+        "verdict": "unclear",
+        "explanation": "This hints at cross-platform matching, but it talks about recognizing devices and browsers, not about sending a hashed email you typed."
+      },
+      {
+        "quote": "We or our partners may collect or receive information associated with your device, such as device identifiers, browser information, IP address, or similar identifiers, to support analytics, advertising, attribution, and reporting activities.",
+        "verdict": "unclear",
+        "explanation": "A hashed email could arguably count as a \"similar identifier,\" but the policy lists only device-type data and never mentions email."
+      },
+      {
+        "quote": "Name, email, IP, social media information (if you choose to login to the Service through a social media account)\tFrom Users who create an account\tTo provide the Services, for marketing, and for customer support",
+        "verdict": "unclear",
+        "explanation": "The policy says email is collected from users who create an account and used for marketing, but it does not address email captured from a form that was never submitted."
+      }
+    ],
+    "rejected": [],
+    "summary": "The policy broadly discloses that third-party advertising pixels and social media tools run on the site and collect interaction and device data, but it never specifically mentions sharing hashed email addresses or capturing information before a form is submitted. No statement clearly promises this would not happen, though the observed pre-submit sharing of a hashed email with Pinterest goes beyond what the policy explicitly describes.",
+    "policy_url": "https://www.punchbowl.com/privacy-policy"
+  },
+  "policy_url": "https://www.punchbowl.com/privacy-policy"
+}

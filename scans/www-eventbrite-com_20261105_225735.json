@@ -1,0 +1,82 @@
+{
+  "url": "https://www.eventbrite.com/signin/",
+  "site": "www.eventbrite.com",
+  "canary": "canary-45aed0cc@example.com",
+  "identity": {
+    "email": "canary-45aed0cc@example.com",
+    "name": "Robin CanaryGhnsrbqq",
+    "phone": "4155554504"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-05 22:57:35",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 12 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [
+    {
+      "field": "email",
+      "host": "ct.pinterest.com",
+      "company": "Pinterest",
+      "category": "Advertising network",
+      "risk": "high",
+      "disguise": "SHA-256 hash",
+      "method": "GET",
+      "request_url": "https://ct.pinterest.com/user/?pd=%7B%22aem%22%3A%227b88808dfb464a28a99f7811e36b9b83f21b803fc2f37777514708f7dd504edd%22%7D&cb=1793948265611&dep=1%2CLISTENER_SCRAPE",
+      "body_snippet": "",
+      "seconds_after_typing": 1.7,
+      "third_party": true
+    }
+  ],
+  "third_parties": {
+    "cdn.evbstatic.com": 21,
+    "apis.google.com": 2,
+    "ssl.google-analytics.com": 1,
+    "www.google-analytics.com": 2,
+    "www.googletagmanager.com": 1,
+    "s.pinimg.com": 2,
+    "bat.bing.com": 3,
+    "connect.facebook.net": 3,
+    "analytics.tiktok.com": 14,
+    "cdn.heapanalytics.com": 1,
+    "js.hs-scripts.com": 1,
+    "utt.impactcdn.com": 1,
+    "pixel.byspotify.com": 1,
+    "bzrcdn.openai.com": 2,
+    "www.google.com": 28,
+    "ad.doubleclick.net": 1,
+    "js.hs-analytics.net": 1,
+    "js.hs-banner.com": 1,
+    "js.hubspot.com": 1,
+    "t.contentsquare.net": 2,
+    "eventbrite.pxf.io": 1,
+    "ct.pinterest.com": 7,
+    "pixels.spotify.com": 2,
+    "googleads.g.doubleclick.net": 10,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1,
+    "cta-service-cms2.hubspot.com": 1,
+    "www.ojrq.net": 1,
+    "perf-na1.hsforms.com": 1,
+    "c.contentsquare.net": 2,
+    "static.hj.contentsquare.net": 1,
+    "k-aus1.contentsquare.net": 1,
+    "heapanalytics.com": 3,
+    "analytics-ipv6.tiktokw.us": 1,
+    "srm.bf.contentsquare.net": 1,
+    "js.zi-scripts.com": 2,
+    "track.hubspot.com": 1,
+    "ws.zoominfo.com": 2,
+    "bzr.openai.com": 1
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.eventbrite.com/privacypolicy",
+  "screenshot": "scans/www-eventbrite-com_20261105_225735.png",
+  "error": null,
+  "saved_as": "scans/www-eventbrite-com_20261105_225735.json"
+}

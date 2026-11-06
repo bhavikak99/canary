@@ -1,0 +1,31 @@
+{
+  "url": "https://www.instagram.com/",
+  "site": "www.instagram.com",
+  "canary": "canary-21bd10ff@example.com",
+  "identity": {
+    "email": "canary-21bd10ff@example.com",
+    "name": "Robin CanaryDcprcbtt",
+    "phone": "4155552113"
+  },
+  "fields_typed": [
+    "email"
+  ],
+  "time": "2026-11-06 12:12:37",
+  "steps": [
+    "Opened the page",
+    "Typed a fake email and clicked away. Never pressed submit",
+    "Watched the traffic for 12 seconds"
+  ],
+  "cookie_choice": null,
+  "after_reject": {},
+  "leaks": [],
+  "third_parties": {
+    "static.cdninstagram.com": 30,
+    "www.facebook.com": 2
+  },
+  "found_email_box": true,
+  "policy_url_found": "https://www.instagram.com/legal/privacy/",
+  "screenshot": "scans/www-instagram-com_20261106_121237.png",
+  "error": null,
+  "saved_as": "scans/www-instagram-com_20261106_121237.json"
+}
